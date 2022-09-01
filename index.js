@@ -3,6 +3,7 @@ const User = require('./routes/user');
 const Auth = require('./routes/auth');
 const Category = require('./routes/categories');
 const Product = require('./routes/product');
+const Cart = require('./routes/cart');
 
 
 const mongoose = require('mongoose');
@@ -23,6 +24,8 @@ app.use('/api/user',User);
 app.use('/api/auth',Auth);
 app.use('/api/category',Category);
 app.use('/api/product',Product);
+app.use('/api/cart',Cart);
+
 
 
 

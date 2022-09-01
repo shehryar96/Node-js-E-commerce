@@ -1,7 +1,6 @@
 const express = require('express');
 const multer  = require('multer')
 const router = express.Router();
-const mongoose = require('mongoose');
 const _ = require('lodash');
 const {Product,Validate} = require('../models/products');
 const auth = require('../middleware/auth');
